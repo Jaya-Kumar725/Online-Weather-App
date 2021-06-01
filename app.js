@@ -37,7 +37,7 @@ app.post("/",function(req,res){
 
     const options = {
         method: "post",
-        auth: "jayakumar:64661b6e6f0b793b22278f92a98a1d20-us6"
+        auth: "jayakumar:---------------------us6"
     }
 
 
