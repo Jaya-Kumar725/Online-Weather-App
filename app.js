@@ -33,7 +33,7 @@ app.post("/",function(req,res){
     }
     const jsonData = JSON.stringify(data);
 
-    const url = "https://us6.api.mailchimp.com/3.0/lists/4f5c976541";
+    const url = "https://us6.api.mailchimp.com/3.0/lists/your unique id";
 
     const options = {
         method: "post",
@@ -66,7 +66,7 @@ app.post("/",function(req,res){
 app.post("/success.html",function(req,res){
 
    const query = req.body.cityName;
-   const apiKey = "a94b04ddce127b76fdbf54ef74d81e4a";
+   const apiKey = "Enter your API key";
    const unit = "metric"
    const url ="https://api.openweathermap.org/data/2.5/weather?q=" + query + "&appid=" + apiKey + "&units=" + unit;
    https.get(url,function(response){
